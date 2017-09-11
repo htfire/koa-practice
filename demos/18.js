@@ -18,7 +18,7 @@ const main = ctx => {
 
 app.on('error', function(err) {
   console.log('logging error ', err.message);
-  console.log(err);
+  console.log('server error',err);
 });
 
 app.use(handler);
